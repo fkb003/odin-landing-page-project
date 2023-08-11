@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 48px 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration: none;
+    color:#e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.signup > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap-reverse;
+}
+
+.hero {
+    flex: 1 1 300px;
+}
