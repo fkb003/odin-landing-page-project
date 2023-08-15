@@ -66,9 +66,10 @@ a {
     flex-direction: column;
     align-items: center;
     width: 150px;
+    text-align: center;
 }
 
-#info-section > h2,p {
+#info-section > h2 {
     text-align: center;
 }
 
@@ -96,4 +97,40 @@ a {
 #testimonials > p {
     font-weight: bold;
     text-align: right;
+}
+
+#calltoaction {
+    padding: 68px 150px;
+}
+
+.modal {
+    background-color: #3882f6;
+    padding: 20px 0px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-text > p, .modal-text > h2 {
+    padding: 0px;
+    margin: 10px;
+    color: #fff;
+}
+
+h2 {
+    margin: 0px;
+}
+
+button {
+    padding: 8px 20px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    color:#fff;
+    background-color: #3882f6;
+}
+
+.modal > button {
+    border: 2px solid #fff;
 }
