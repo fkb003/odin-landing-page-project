@@ -134,3 +134,9 @@ button {
 .modal > button {
     border: 2px solid #fff;
 }
+
+footer {
+    padding: 20px;
+    background-color: #e5e7eb;
+    text-align: center;
+}
