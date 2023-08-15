@@ -79,3 +79,21 @@ a {
 #info-section {
     margin: 48px 0;
 }
+
+#testimonials {
+    background-color: #e5e7eb;
+    padding: 48px 150px;
+}
+
+#testimonials > h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+#testimonials > p {
+    font-weight: bold;
+    text-align: right;
+}
