@@ -162,13 +162,13 @@ ul {
 
 
 #cta {
-    padding: 5vh 12vw;
+    padding: 5vh 8vw;
     background-color: #00A95D;
 }
 
 .modal {
     background-color: #C3FFCA;
-    padding: 20px;
+    padding: 15px;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -177,7 +177,7 @@ ul {
 }
 
 .modal-title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
