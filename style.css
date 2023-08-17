@@ -129,27 +129,26 @@ ul {
 
             /* --------testimonials-------- */
 
-#testimonials {
-    background-color: #e5e7eb;
-    padding: 48px 150px;
+#quote {
+    background-color: #C3FFCA;
+    padding: 5vh 20vw;
+    color: #00A95D;
 }
 
-#testimonials > h2 {
+.quote-text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
     margin-bottom: 30px;
 }
 
-#testimonials > p {
-    font-weight: bold;
+.quote-credit{
+    font-size: 16px;
     text-align: right;
+    font-weight: bold;
 }
 
-#calltoaction {
-    padding: 68px 150px;
-}
+
 
 
 
@@ -157,6 +156,10 @@ ul {
 
             /* --------call-to-action-------- */
 
+
+#calltoaction {
+    padding: 68px 150px;
+}
 
 .modal {
     background-color: #3882f6;
