@@ -27,8 +27,8 @@ button {
 header {
     /* background-color: #00C96F; */
     background-color: #00A95D;
-    color: #f9faf8;
     padding: 5vh 10vw;
+    color: #fff;
 }
 
 /* -----navbar----- */
@@ -83,13 +83,34 @@ ul {
     margin-bottom: 20px;
 }
 
+
+
+
+
+
             /* --------info-section-------- */
+
+#infosec {
+    padding: 60px;
+    background-color: #00011F;
+    color:#fff;
+}
+
+.infosec-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* -----cards----- */
+
 .cards {
     display: flex;
     padding: 0 48px;
-    gap: 24px;
+    gap: 30px;
     justify-content: center;
-
 }
 
 .card {
@@ -98,19 +119,9 @@ ul {
     align-items: center;
     width: 150px;
     text-align: center;
+    gap: 30px;
 }
 
-#info-section > h2 {
-    text-align: center;
-}
-
-#info-section > h2 {
-    margin: 48px 0;
-}
-
-#info-section {
-    margin: 48px 0;
-}
 
 
 
