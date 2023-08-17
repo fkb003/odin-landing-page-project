@@ -161,11 +161,12 @@ ul {
 
 
 #cta {
-    padding: 5vh 20vw;
+    padding: 5vh 12vw;
+    background-color: #00A95D;
 }
 
 .modal {
-    background-color: #00A95D;
+    background-color: #C3FFCA;
     padding: 20px 45px;
     border-radius: 12px;
     display: flex;
@@ -181,13 +182,13 @@ ul {
 .modal-title, .modal-subtitle {
     padding: 0px;
     margin: 10px;
-    color: #fff;
+    color: #00A95D;
 }
 
 .modal-btn {
-    border: 2px solid #C3FFCA;
-    color: #fff;
-    background-color: #00A95D;
+    border: 2px solid #00A95D;
+    color: #00A95D;
+    background-color: #C3FFCA;
 }
 
 
@@ -198,7 +199,7 @@ ul {
 
 footer {
     padding: 20px;
-    background-color: #00A95D;
+    background-color: #00011F;
     color: #fff;
     text-align: center;
 }
