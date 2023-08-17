@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-color: #1f2937;
+    /* background-color: #00C96F; */
+    background-color: #00A95D;
     color: #f9faf8;
     padding: 48px 150px;
 }
@@ -25,7 +26,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:#e5e7eb;
+    color:#C3FFCA;
 }
 
 .logo {
@@ -127,8 +128,8 @@ button {
     font-weight: bold;
     border-style: none;
     border-radius: 10px;
-    color:#fff;
-    background-color: #3882f6;
+    color:#00A95D;
+    background-color: #C3FFCA;
 }
 
 .modal > button {
