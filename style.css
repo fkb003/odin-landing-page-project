@@ -55,7 +55,7 @@ ul {
 
 .hero {
     display: flex;
-    gap: 24px;
+    gap: 36px;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
@@ -68,7 +68,7 @@ ul {
 
 .hero-title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .hero-subtitle {
