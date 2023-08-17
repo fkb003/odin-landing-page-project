@@ -1,13 +1,46 @@
+/* --------general-------- */
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color:#C3FFCA;
+}
+
+button {
+    padding: 8px 20px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    color:#00A95D;
+    background-color: #C3FFCA;
+}
+
+
+
+
+            /* --------header-------- */
 
 header {
     /* background-color: #00C96F; */
     background-color: #00A95D;
     color: #f9faf8;
     padding: 48px 150px;
+}
+
+/* -----navbar----- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -18,42 +51,33 @@ ul {
     gap: 24px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
+/* -----hero----- */
 
-a {
-    text-decoration: none;
-    color:#C3FFCA;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.signup > h1 {
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-.signup > p {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.signup {
+.hero {
     display: flex;
     gap: 24px;
     flex-wrap: wrap-reverse;
 }
 
-.hero {
+.hero-text {
     flex: 1 1 300px;
 }
 
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+
+            /* --------info-section-------- */
 .cards {
     display: flex;
     padding: 0 48px;
@@ -82,6 +106,12 @@ a {
     margin: 48px 0;
 }
 
+
+
+
+
+            /* --------testimonials-------- */
+
 #testimonials {
     background-color: #e5e7eb;
     padding: 48px 150px;
@@ -104,6 +134,13 @@ a {
     padding: 68px 150px;
 }
 
+
+
+
+
+            /* --------call-to-action-------- */
+
+
 .modal {
     background-color: #3882f6;
     padding: 20px 0px;
@@ -123,18 +160,15 @@ h2 {
     margin: 0px;
 }
 
-button {
-    padding: 8px 20px;
-    font-weight: bold;
-    border-style: none;
-    border-radius: 10px;
-    color:#00A95D;
-    background-color: #C3FFCA;
-}
-
 .modal > button {
     border: 2px solid #fff;
 }
+
+
+
+
+            /* --------footer-------- */
+
 
 footer {
     padding: 20px;
