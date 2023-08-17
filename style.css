@@ -28,7 +28,7 @@ header {
     /* background-color: #00C96F; */
     background-color: #00A95D;
     color: #f9faf8;
-    padding: 48px 150px;
+    padding: 5vh 10vw;
 }
 
 /* -----navbar----- */
@@ -56,6 +56,14 @@ ul {
 .hero {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 30%;
 }
 
 .hero-title {
@@ -67,6 +75,12 @@ ul {
     font-size: 18px;
     color: #fff;
     margin: 20px 0;;
+}
+
+.hero-img {
+    flex: 1;
+    max-width: 100%;
+    margin-bottom: 20px;
 }
 
             /* --------info-section-------- */
