@@ -168,12 +168,12 @@ ul {
 
 .modal {
     background-color: #C3FFCA;
-    padding: 20px 45px;
+    padding: 20px;
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 7vw;
 }
 
 .modal-title {
@@ -183,7 +183,7 @@ ul {
 
 .modal-title, .modal-subtitle {
     padding: 0px;
-    margin: 10px;
+    margin: 10px 0;
     color: #00A95D;
 }
 
