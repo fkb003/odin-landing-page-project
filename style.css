@@ -15,8 +15,6 @@ button {
     font-weight: bold;
     border-style: none;
     border-radius: 10px;
-    color:#00A95D;
-    background-color: #C3FFCA;
 }
 
 
@@ -75,6 +73,11 @@ ul {
     font-size: 18px;
     color: #fff;
     margin: 20px 0;;
+}
+
+.hero-btn {
+    color:#00A95D;
+    background-color: #C3FFCA;
 }
 
 .hero-img {
@@ -157,31 +160,34 @@ ul {
             /* --------call-to-action-------- */
 
 
-#calltoaction {
-    padding: 68px 150px;
+#cta {
+    padding: 5vh 20vw;
 }
 
 .modal {
-    background-color: #3882f6;
-    padding: 20px 0px;
+    background-color: #00A95D;
+    padding: 20px 45px;
     border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.modal-text > p, .modal-text > h2 {
+.modal-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.modal-title, .modal-subtitle {
     padding: 0px;
     margin: 10px;
     color: #fff;
 }
 
-h2 {
-    margin: 0px;
-}
-
-.modal > button {
-    border: 2px solid #fff;
+.modal-btn {
+    border: 2px solid #C3FFCA;
+    color: #fff;
+    background-color: #00A95D;
 }
 
 
